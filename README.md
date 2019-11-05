@@ -1,5 +1,5 @@
 # 1. www.joshherz.com
->wwww.josherz.com, a portfolio website by Josh Herz. You can tell I like to get real creative with my website names.
+>A portfolio website by Josh Herz. You can tell I like to get real creative with my website names.
 
 SKIP TO [1.4.1. How to Run This Code](#141-how-to-run-this-code) if you're the TL;DR type.
 

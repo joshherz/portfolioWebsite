@@ -1,5 +1,5 @@
 # 1. joshherz.com
->A website to host projects made by me, Josh Herz. By originality of my website name, josherz.com, you can tell I'm the real think-outside-the-box type.
+>A website to host projects made by me, Josh Herz. Judging by the originality of my website name, josherz.com, you can tell I'm the real think-outside-the-box type.
 
 SKIP TO [1.4.1. How to Run This Code](#141-how-to-run-this-code) if you're the TL;DR type.
 
@@ -20,7 +20,7 @@ SKIP TO [1.4.1. How to Run This Code](#141-how-to-run-this-code) if you're the T
 ## 1.3. Overview
 **What kind of projects do you work on?**
 
-I tried to marry my love for VR with my skills for webDev with the newly released webXR api.
+I try to marry my love for VR with my webDev skills and chemistry degree.
 On my website, you'll find an assortment of webXR, react360, and webAR apps.
 
 ## 1.4. Usage

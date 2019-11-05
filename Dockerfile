@@ -15,7 +15,7 @@ COPY . .
 # RUN npm run build --production
 
 # What port will the container talk to the outside world with once created?
-EXPOSE 8080
+EXPOSE 3000
 
 # How do you start your app?
 CMD ["npm", "run", "startDocker"]

@@ -1,7 +1,7 @@
 {
   "name": "portfoliowebsite",
   "version": "1.0.0",
-  "description": "A website to host projects made by me, Josh Herz. By originality of my website name, josherz.com, you can tell I'm the real think-outside-the-box type.",
+  "description": "wwww.josherz.com, a portfolio website by Josh Herz. You can tell I like to get real creative with my website names.",
   "main": "index.js",
   "scripts": {
     "startDocker": "nodemon server/index.js",

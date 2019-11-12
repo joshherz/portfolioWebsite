@@ -10,3 +10,12 @@ body {
   line-height: 1.5;
   overflow: hidden
 }
+
+
+#App {
+  font-family: sans-serif;
+}
+
+#page-wrap {
+  text-align: center;
+}

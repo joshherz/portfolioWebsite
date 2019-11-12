@@ -31,7 +31,22 @@ class ProjectList extends React.Component {
     //and outputs banners that list the project name, compatibleWithDevice info, and link
     return(
       <div>
-
+        <ul>
+          {this.props.projectsData.map((singleProject, index) => {
+            return(
+              <li>
+                <h1>{singleProject.title}</h1>
+                <p>
+                  <a href={singleProject.url}>Visit {singleProject.title}.com</a>
+                </p>
+                <div>
+                  <h2>Best Experienced With: {this.compatibleWith(singleProject.compatibleWithOculus) /*if true, should display oculus SVG*/} </h2>
+                </div>
+              </li>
+              
+            )
+          })}
+        </ul>
       </div>
     )
   }

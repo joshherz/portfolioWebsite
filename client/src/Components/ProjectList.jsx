@@ -2,16 +2,19 @@ import React from 'react';
 
 class ProjectList extends React.Component {
   constructor(props){
-    this.state = {};
+    super(props);
+    this.state = {
+      numberOfProjectBanners: 2,
+    };
     this.compatibleWith = this.compatibleWith.bind(this);
     this.oculusSVG = "https://joshportfoliowebsite.s3-us-west-1.amazonaws.com/oculus.svg";
-    this.valveIndexSVG = "https:joshportfoliowebsite.s3-us-west-1.amazonaws.com/valveIndex2.svg";
+    this.valveIndexSVG = "https://joshportfoliowebsite.s3-us-west-1.amazonaws.com/valveIndex2.svg";
     this.hololensSVG = "https://joshportfoliowebsite.s3-us-west-1.amazonaws.com/hololens.svg";
 
   }
-  compatibleWith(/*takes boolean value*/){
+  compatibleWith(booleanValue){
       //if true, returns svg icon of vr/ar headset project is compatible with
-     if(compatibleWithOculus){
+     if(booleanValue){
        return(
          <div>
            <img src={this.oculusSVG}></img>
@@ -34,7 +37,7 @@ class ProjectList extends React.Component {
         <ul>
           {this.props.projectsData.map((singleProject, index) => {
             return(
-              <li>
+              <li key={index}>
                 <h1>{singleProject.title}</h1>
                 <p>
                   <a href={singleProject.url}>Visit {singleProject.title}.com</a>
@@ -51,4 +54,4 @@ class ProjectList extends React.Component {
     )
   }
 }
-
+export default ProjectList;

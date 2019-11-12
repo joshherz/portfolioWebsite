@@ -32,7 +32,7 @@ class App extends React.Component {
         <Sidebar></Sidebar>
         <div id="main">
           <div id="projects">
-            <ProjectList projectsData = {this.state.allProjectData} />
+            <ProjectList projectsData = {this.state.projects} />
           </div>
         </div>
         </div>

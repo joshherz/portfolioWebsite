@@ -1,0 +1,12 @@
+#projects{
+  text-decoration-color: #ffffff;
+  background-color: #0d101E
+}
+body {
+  font-family: aktiv-grotesk,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  overflow: hidden
+}

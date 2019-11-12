@@ -39,9 +39,8 @@ class ProjectList extends React.Component {
             return(
               <li key={index}>
                 <h1>{singleProject.title}</h1>
-                <p>
-                  <a href={singleProject.url}>Visit {singleProject.title}.com</a>
-                </p>
+                <p><a href={singleProject.url}>Visit {singleProject.title}.com</a></p>
+                <p>{singleProject.desc}</p>
                 <div>
                   <h2>Best Experienced With: {this.compatibleWith(singleProject.compatibleWithOculus) /*if true, should display oculus SVG*/} </h2>
                 </div>

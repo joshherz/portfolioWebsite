@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebar from './Sidebar.jsx';
+import ProjectList from './ProjectList.jsx';
 
 class App extends React.Component {
   constructor() {
@@ -12,7 +13,7 @@ class App extends React.Component {
           url: "https://chemvr.com",
           compatibleWithOculus: true,
           compatibleWithHololens: false,
-        }
+        },
         {
           title: "OChemXR",
           desc: "Utilize the newly developed WebXR API to visualize holograms of molecular structuress via your Hololens AR Headset or AR-enabled Android phone",
@@ -29,6 +30,11 @@ class App extends React.Component {
       <div>Testing App
         <div>Rendering Sidebar Component
         <Sidebar></Sidebar>
+        <div id="main">
+          <div id="projects">
+            <ProjectList projectsData = {this.state.allProjectData} />
+          </div>
+        </div>
         </div>
       </div>
 

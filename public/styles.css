@@ -1,7 +1,4 @@
-#projects{
-  text-decoration-color: #ffffff;
-  background-color: #0d101E
-}
+/* Lowest Priority in Inheritance of CSS Properties*/
 body {
   /*font family I like. Might change later */
   font-family: aktiv-grotesk,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
@@ -12,4 +9,32 @@ body {
   line-height: 1.5;
   overflow: hidden
 }
+
+/*Header tag in App.jsx*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: 70px;
+  /* height: 100%; */
+  width: 100%;
+  background: rgb(13, 16, 30);
+  /* border-bottom: 1px solid rgb(41, 44, 65); */
+  /* box-sizing: border-box; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: end;
+  line-height: 100px;
+  /* vertical-align: middle; */
+  font-family: aktiv-grotesk,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  font-weight: 300;
+  color: rgb(157, 157, 157);
+}
+
+#projects{
+  text-decoration-color: #ffffff;
+  background-color: #0d101E
+}
+
 

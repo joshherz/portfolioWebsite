@@ -1,5 +1,5 @@
 import React from 'react';
-import { elastic as Menu } from "react-burger-menu";
+import { slide as Menu } from "react-burger-menu";
 
 class Sidebar extends React.Component{
   constructor(props){
@@ -10,7 +10,7 @@ class Sidebar extends React.Component{
   }
   render() {
     return (
-      <Menu width={ '60%' } >
+      <Menu width={ '200px' } >
        {/* <Menu {...this.props}> */}
         <a className="bm-name">
         Josh Herz

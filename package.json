@@ -4,7 +4,7 @@
   "description": "wwww.josherz.com, a portfolio website by Josh Herz. You can tell I like to get real creative with my website names.",
   "main": "index.js",
   "scripts": {
-    "startDocker": "NODE_ENV=production && sleep 2 && nodemon server/index.js",
+    "startDocker": "sleep 2 && nodemon server/index.js",
     "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -d --watch"

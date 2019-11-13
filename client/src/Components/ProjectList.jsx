@@ -33,7 +33,7 @@ class ProjectList extends React.Component {
     //returns map function that has input of projectsData
     //and outputs banners that list the project name, compatibleWithDevice info, and link
     return(
-      <div>
+      <div id={this.props.projectsData[0].projectStylingClassName}>
         <ul>
           {this.props.projectsData.map((singleProject, index) => {
             return(

@@ -112,4 +112,16 @@ img.animated-gif {
   padding:10px;
 }
 
+#projectTilePurple{
+
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  /* height: 70px; */
+  background:  #391934;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
 

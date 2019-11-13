@@ -32,6 +32,7 @@ class App extends React.Component {
           url: "http://ochemar.com",
           compatibleWithOculus: false,
           compatibleWithHololens: true,  
+          projectStylingClassName: "projectTilePurple"
         }
       ]
     }

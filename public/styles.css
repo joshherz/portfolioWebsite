@@ -3,19 +3,13 @@
   background-color: #0d101E
 }
 body {
+  /*font family I like. Might change later */
   font-family: aktiv-grotesk,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
   font-weight: 300;
-  color: #fff;
+  /* consider changing color from white (#ffffff) to off-white */
+  color: #ffffff;
   font-size: 1.6rem;
   line-height: 1.5;
   overflow: hidden
 }
 
-
-#App {
-  font-family: sans-serif;
-}
-
-#page-wrap {
-  text-align: center;
-}

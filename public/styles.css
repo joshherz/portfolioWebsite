@@ -227,3 +227,7 @@ img.animated-gif {
   overflow: hidden;
   /* transform: translateZ(0) */
 }
+
+.listsWithoutBulletPoints {
+  list-style-type: none
+}

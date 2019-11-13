@@ -5,9 +5,11 @@ body {
   font-weight: 300;
   /* consider changing color from white (#ffffff) to off-white */
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 1.0rem;
   line-height: 1.5;
-  overflow: hidden
+  overflow: hidden;
+  /* background-color: #0d101E */
+  /* background-color:  */
 }
 
 /*Header tag in App.jsx*/
@@ -98,6 +100,16 @@ img.animated-gif {
 #projects{
   text-decoration-color: #ffffff;
   background-color: #0d101E
+}
+
+
+/*styling for Herz Dev name and logo at top right */
+.donutCenter {
+  bottom: 50%;
+  transform: translate(-20%, 20%);
+}
+.textCenter {
+  padding:10px;
 }
 
 

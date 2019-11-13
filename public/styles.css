@@ -56,6 +56,30 @@ body {
   box-sizing: border-box;
 }
 
+#page-wrap-dark-blue {
+  color: #ffffff;
+  font-family: 'Raleway', Arial, sans-serif;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  padding: 3em 2em;
+  text-align: center;
+  background: #0d101E;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#page-wrap-purple {
+  color: #ffffff;
+  font-family: 'Raleway', Arial, sans-serif;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  padding: 3em 2em;
+  text-align: center;
+  background: #391934;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 
 #projects{

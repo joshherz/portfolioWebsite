@@ -1,17 +1,11 @@
 version: '3'
 
 services:
-  overview:
+  portfolioDockerImage:
     build: .
 
-    depends_on:
-      - 'database'
     ports:
       - '80:3000'
     environment:
       - NODE_ENV=production
-      - PROD_API_URL=ec2-13-52-246-68.us-west-1.compute.amazonaws.com
-      - PROD_DB_HOST=database
-
-  database:
-    image: postgres:latest
+      - PROD_API_URL=http://ec2-54-67-67-2.us-west-1.compute.amazonaws.com

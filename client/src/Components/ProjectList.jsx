@@ -17,7 +17,7 @@ class ProjectList extends React.Component {
      if(booleanValue){
        return(
          <div>
-           <img src={this.oculusSVG}></img>
+           <img src={this.oculusSVG}></img> <br/>
            <img src={this.valveIndexSVG}></img>
          </div>
        )

@@ -81,6 +81,19 @@ body {
   overflow-x: hidden;
 }
 
+img.animated-gif {
+  /* position: absolute; */
+  width: 100%;
+  height: auto;
+  /* width: null;
+  height: null; */
+  object-fit: cover;
+  bottom: 50%;
+  /* right: 50%; */
+  transform: translate(-18%, 20%);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 
 #projects{
   text-decoration-color: #ffffff;

@@ -32,6 +32,32 @@ body {
   color: rgb(157, 157, 157);
 }
 
+
+/*Containers in App.jsx*/
+#outer-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  /* height: 60px; */
+  height: 100%;
+  width: 100%;
+  /* background: rgb(13, 16, 30); */
+  border-bottom: 1px solid rgb(41, 44, 65);
+  /* box-sizing: border-box; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+
+#inner-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+
+
 #projects{
   text-decoration-color: #ffffff;
   background-color: #0d101E

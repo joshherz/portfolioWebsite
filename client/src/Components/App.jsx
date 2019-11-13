@@ -53,7 +53,7 @@ class App extends React.Component {
                 <ProjectList projectsData={this.state.projectsAR} />
               </div>
             </div>
-            <div id="page-wrap-purple">
+            <div id="page-wrap-gif">
               <div id="projects">
                 <GifTile />
               </div>
